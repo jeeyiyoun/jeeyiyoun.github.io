@@ -1,0 +1,1 @@
+{"version":3,"file":"useBreakpointVariants.d.ts","sourceRoot":"","sources":["../../src/modules/useBreakpointVariants.ts"],"names":[],"mappings":"AAOA,gBAAgB;AAChB,UAAU,UAAU;IAChB,GAAG,CAAC,EAAE,MAAM,CAAA;IACZ,GAAG,CAAC,EAAE,MAAM,CAAA;CACf;AAiCD,gBAAgB;AAChB,wBAAgB,qBAAqB,CACjC,OAAO,EAAE,MAAM,EACf,KAAK,EAAE,MAAM,GAAG,SAAS,EACzB,WAAW,EAAE,MAAM,CAAC,MAAM,EAAE,UAAU,CAAC,sBA0E1C"}

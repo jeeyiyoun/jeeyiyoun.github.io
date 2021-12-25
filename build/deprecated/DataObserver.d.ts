@@ -1,0 +1,43 @@
+import * as React from "react";
+import type { Cancel } from "../animation/Animatable/Animatable.js";
+/**
+ * @deprecated
+ * @internal
+ */
+export interface Props {
+}
+/**
+ * @deprecated
+ * @internal
+ */
+export interface State {
+    update: number;
+}
+/**
+ * @deprecated
+ * @internal
+ */
+export declare const DataObserverContext: React.Context<{
+    update: number;
+}>;
+/**
+ * Makes the component re-render when `Data` changes.
+ * @public
+ */
+export declare function useObserveData(): void;
+/**
+ * @deprecated
+ * @internal
+ */
+export declare class DataObserver extends React.Component<Props, State> {
+    observers: Cancel[];
+    state: {
+        update: number;
+    };
+    taskAdded: boolean;
+    frameTask: () => void;
+    observer: () => void;
+    componentWillUnmount(): void;
+    render(): JSX.Element;
+}
+//# sourceMappingURL=DataObserver.d.ts.map
